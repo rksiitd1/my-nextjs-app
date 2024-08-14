@@ -1,5 +1,5 @@
-// next.config.js
-module.exports = {
+// next.config.mjs
+const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     // Ensure that Next.js outputs a static website
@@ -9,3 +9,5 @@ module.exports = {
       unoptimized: true,
     },
   }
+  
+  export default nextConfig;
